@@ -1,0 +1,145 @@
+.stock-card {
+
+display:flex;
+flex-direction:column;
+gap:20px;
+
+}
+
+
+
+.stock-top {
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+.stock-top h3 {
+
+color:#111827;
+font-size:18px;
+
+}
+
+
+.stock-top span {
+
+color:#6b7280;
+font-size:14px;
+
+}
+
+
+
+.favorite {
+
+border:none;
+
+background:none;
+
+cursor:pointer;
+
+font-size:20px;
+
+color:#9ca3af;
+
+}
+
+
+.favorite.active {
+
+color:#facc15;
+
+}
+
+
+
+.stock-price {
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+}
+
+
+
+.stock-price h2 {
+
+font-size:30px;
+
+color:#111827;
+
+}
+
+
+
+.gain {
+
+color:#16a34a;
+
+font-weight:600;
+
+}
+
+
+
+.loss {
+
+color:#dc2626;
+
+font-weight:600;
+
+}
+
+
+
+.stock-footer {
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+
+
+.stock-footer span {
+
+font-size:13px;
+
+color:#16a34a;
+
+}
+
+
+
+.stock-footer button {
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:8px 15px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+
+.stock-footer button:hover {
+
+background:#1d4ed8;
+
+}

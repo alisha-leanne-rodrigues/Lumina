@@ -1,0 +1,67 @@
+.prediction-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.price-section p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+
+.price-section h2 {
+  color: #111827;
+  margin-top: 5px;
+}
+
+
+.recommendation {
+  width: fit-content;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+
+.buy {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+
+.sell {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+
+.hold {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+
+.confidence p {
+  margin-bottom: 8px;
+  color: #6b7280;
+}
+
+
+.progress {
+  height: 22px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.progress-bar {
+  height: 100%;
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  line-height: 22px;
+}

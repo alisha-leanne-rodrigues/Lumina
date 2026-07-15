@@ -1,0 +1,66 @@
+.portfolio-page {
+
+    padding:25px;
+    color:white;
+
+}
+
+
+.portfolio-page h1 {
+
+    font-size:32px;
+
+}
+
+
+.portfolio-subtitle {
+
+    color:#9ca3af;
+    margin:10px 0 30px;
+
+}
+
+
+.portfolio-stats {
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+
+}
+
+
+.portfolio-section {
+
+    margin-top:40px;
+
+}
+
+
+.portfolio-section h2 {
+
+    margin-bottom:20px;
+
+}
+
+
+.holdings-grid {
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+
+}
+
+
+
+@media(max-width:900px){
+
+    .portfolio-stats,
+    .holdings-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

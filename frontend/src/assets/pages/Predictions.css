@@ -1,0 +1,55 @@
+.predictions-page {
+
+    padding:25px;
+    color:white;
+
+}
+
+
+
+.predictions-page h1 {
+
+    font-size:32px;
+
+}
+
+
+
+.prediction-subtitle {
+
+    color:#9ca3af;
+    margin:10px 0 30px;
+
+}
+
+
+
+.prediction-layout {
+
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:25px;
+
+}
+
+
+
+.prediction-cards {
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+
+@media(max-width:900px){
+
+    .prediction-layout{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

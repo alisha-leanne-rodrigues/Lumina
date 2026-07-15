@@ -1,0 +1,65 @@
+.stocks-page {
+
+    padding:25px;
+    color:white;
+
+}
+
+
+
+.stocks-page h1 {
+
+    font-size:32px;
+
+}
+
+
+
+.stocks-subtitle {
+
+    color:#9ca3af;
+    margin:10px 0 30px;
+
+}
+
+
+
+.stocks-search {
+
+    margin-bottom:30px;
+
+}
+
+
+
+.stocks-grid {
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+
+}
+
+
+
+@media(max-width:1000px){
+
+    .stocks-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:650px){
+
+    .stocks-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

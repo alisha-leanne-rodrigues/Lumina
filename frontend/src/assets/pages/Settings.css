@@ -1,0 +1,87 @@
+.settings-page {
+
+    padding:25px;
+    color:white;
+
+}
+
+
+
+.settings-page h1 {
+
+    font-size:32px;
+
+}
+
+
+
+.settings-subtitle {
+
+    color:#9ca3af;
+    margin:10px 0 30px;
+
+}
+
+
+
+.settings-card {
+
+    max-width:600px;
+    background:#111827;
+    padding:30px;
+    border-radius:16px;
+
+}
+
+
+
+.setting-item {
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-bottom:20px;
+
+}
+
+
+
+.setting-item label {
+
+    color:#d1d5db;
+
+}
+
+
+
+.setting-item input,
+.setting-item select {
+
+    padding:12px;
+    background:#1f2937;
+    border:1px solid #374151;
+    color:white;
+    border-radius:8px;
+
+}
+
+
+
+.settings-card button {
+
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+
+
+.settings-card button:hover {
+
+    background:#1d4ed8;
+
+}
